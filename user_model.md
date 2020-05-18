@@ -18,7 +18,7 @@
 - Mobile Number= CharField
 - Keywords = onetomanyField(keyword model)
 - Favourite Books = onetomany(book model)
-- Profile Picture = CharField
+- Profile Picture = ImageField
 
 ## More info about the user
 
