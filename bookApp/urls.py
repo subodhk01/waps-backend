@@ -1,7 +1,11 @@
 from django.urls import path, include
+from .views import feedView
+from rest_framework.routers import DefaultRouter
 
-urlpatterns = [
-    path('',include)
-]
+
+router=DefaultRouter()
+router.register('',feedView,)
+
+urlpatterns = router.urls
 
 
