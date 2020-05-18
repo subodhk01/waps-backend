@@ -21,7 +21,7 @@ class Book(models.Model):
     #status True means availabe
     status=models.BooleanField(default=True)
     publication_date=models.DateField(null=True, auto_now=False)
-    cover=models.URLField( max_length=200,blank=True)
+    cover=models.ImageField(blank=None, upload_to='covers/', height_field=None, width_field=None, max_length=None)
     keyword=models.ManyToManyField(keywords)
 
 
