@@ -4,6 +4,7 @@ from .models import Book
 
 
 
+
 class FeedViewSerializer(serializers.ModelSerializer):
     class Meta:
         model=Book

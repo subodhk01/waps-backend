@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import Book,keywords
+from .models import Book,Keyword
 
 # Register your models here.
 admin.site.register(Book)
-admin.site.register(keywords)
+admin.site.register(Keyword)
