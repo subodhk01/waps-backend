@@ -33,6 +33,3 @@ Date this copy of the book was published, usually expressed as the year of publi
 
 # Image URL: 
 The location of your .jpg or .gif book images hosted on another internet location.  You do not have to include an image URL in order to add images of your books.  For details about adding photos of your books, click here.
-
-
-
